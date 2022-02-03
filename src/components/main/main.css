@@ -1,0 +1,45 @@
+.about {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.about:hover {
+    font-size: 40px;
+
+    transition: all 0.8s ease 0.3s;
+}
+.skill {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    cursor: pointer;
+}
+.skill:hover {
+    font-size: 40px;
+
+    transition: all 0.8s ease 0.3s;
+}
+
+.work {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    cursor: pointer;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.work:hover {
+    font-size: 40px;
+    transition: all 0.8s ease 0.3s;
+}

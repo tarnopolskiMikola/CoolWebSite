@@ -1,0 +1,22 @@
+/* <div className="Skills">
+<div className="Skills_block1"></div>
+<div className="Skills_block2"></div>
+</div> */
+
+.Skills {
+    z-index: 100;
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.Skills_block1 {
+    width: 44%;
+    height: 50vh;
+    background-color: rgba(19, 5, 43, 0.945);
+    z-index: 100;
+    border: solid 3px white;
+}

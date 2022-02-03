@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_block1 {
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo {
+    font-size: 25px;
+    margin-left: 10px;
+    z-index: 100;
+}
+.header_item1 {
+    font-size: 25px;
+    margin-left: 20px;
+    z-index: 100;
+}
+.header_link {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.header_bottom {
+    margin-right: 5%;
+    color: green;
+    z-index: 100;
+    border-radius: 50%;
+
+    margin-top: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header_bottom:hover {
+    font-size: 60px;
+    transition: all 0.8s ease 0.3s;
+}

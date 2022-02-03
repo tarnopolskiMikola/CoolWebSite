@@ -1,0 +1,84 @@
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    transition: all 0.28s ease 0.2s;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.hi_block2 {
+    width: 30%;
+    height: 50vh;
+    border: 5px solid rgba(0, 0, 0, 0.836);
+    border-left: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    display: none;
+}
+
+.hi_block1 {
+    width: 65%;
+    height: 50vh;
+    border: 5px solid rgba(255, 44, 150, 0.623);
+    border-right: none;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.hi_hello {
+    font-size: 50px;
+    margin-left: 50px;
+    color: blueviolet;
+}
+.hi_text {
+    font-size: 40px;
+    margin-left: 50px;
+    color: rgb(183, 43, 226);
+}
+
+.hi_text2 {
+    font-size: 30px;
+    margin-left: 50px;
+    color: rgb(183, 43, 226);
+}
