@@ -1,11 +1,13 @@
 .about {
     font-size: 30px;
-    color: black;
+    color: rgb(238, 40, 238);
     text-decoration: none;
     position: absolute;
     top: 90%;
     left: 20%;
     cursor: pointer;
+    animation-name: backInDownn;
+    animation-duration: 1.5s;
 }
 
 .about:hover {
@@ -15,12 +17,14 @@
 }
 .skill {
     font-size: 30px;
-    color: black;
+    color: rgb(238, 40, 238);
     text-decoration: none;
     position: absolute;
     top: 90%;
     left: 80%;
     cursor: pointer;
+    animation-name: backInDownn;
+    animation-duration: 1.5s;
 }
 .skill:hover {
     font-size: 40px;
@@ -30,16 +34,101 @@
 
 .work {
     font-size: 30px;
-    color: black;
+    color: rgb(238, 40, 238);
     text-decoration: none;
     position: absolute;
     top: 45%;
     left: 2%;
     cursor: pointer;
     transform: translateX(-50%) rotate(-90deg);
+    animation-name: backInRight;
+    animation-duration: 1.5s;
 }
 
 .work:hover {
     font-size: 40px;
     transition: all 0.8s ease 0.3s;
+}
+
+@keyframes backInUp {
+    0% {
+        transform: translateY(1200px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        transform: translateY(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes backInLeft {
+    0% {
+        transform: translateX(-2000px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes backInRight {
+    0% {
+        transform: translateX(2000px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px, 0, 0) scaleX(3);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(25px, 0, 0) scaleX(1);
+    }
+
+    75% {
+        transform: translate3d(-10px, 0, 0) scaleX(0.98);
+    }
+
+    90% {
+        transform: translate3d(5px, 0, 0) scaleX(0.995);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
 }

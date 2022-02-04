@@ -6,7 +6,7 @@ import About from './components/about/About'
 import Main from './components/main/main';
 import Skills from './components/skill/skills'
 import Work from './components/work/work'
-import Header from "./components/header/Header"
+
 import Preloader from "./components/preloader/preloader"
 import {BrowserRouter , Routes, Route  } from 'react-router-dom';
  

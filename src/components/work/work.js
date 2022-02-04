@@ -4,7 +4,7 @@ import "./work.css"
 import Header from "../header/Header"
 import Particles from "react-tsparticles";
 import React, {  useEffect } from 'react';
-
+import Icon from "../icon/icon"
 
 
 function Work(){
@@ -23,17 +23,26 @@ function Work(){
         <>
         
         <Header/>
-        <h1 class="Workh1">Work</h1>
        
+       
+        <Icon />
  
-  <div className="block_icon1">
-               <img src="https://img.icons8.com/color-glass/40/000000/github.png" alt="22"/>
-               <img src="https://img.icons8.com/nolan/40/telegram-app.png" alt="22"/>
-               <img src="https://img.icons8.com/fluency/40/000000/facebook-messenger--v2.png" alt="ok"/>
-               <img src="https://img.icons8.com/nolan/40/youtube-squared.png" alt="ok"/>
-             <div className="line2"></div>
-                  </div>
-  
+
+                  <h1 className="Workh11">Work</h1>
+
+                  <div className="WorkBlock">
+
+                  <div id="wok1" className="WorkBlock_b1"></div>
+                  <div id="wok1"  className="WorkBlock_b1"></div>
+                  <div id="wok2"  className="WorkBlock_b1"></div>
+                  <div id="wok2"  className="WorkBlock_b1"></div>
+                  <div id="wok3"  className="WorkBlock_b1"></div>
+                  <div id="wok3"  className="WorkBlock_b1"></div>
+                </div>
+        
+     <div className="work-block">
+
+     </div>
   <Particles
       id="tsparticles"
     
@@ -88,7 +97,7 @@ function Work(){
       }}
      />
   
-        
+
         </>
       );
 }

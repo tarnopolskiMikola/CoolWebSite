@@ -2,8 +2,8 @@
 import "./skill.css"
 import Particles from "react-tsparticles";
 import React, {  useEffect } from 'react';
-
-
+import Header from "../header/Header"
+import Icon from "../icon/icon"
 function Skills(){
     const particlesInit = (main) => {
         console.log(main);
@@ -27,37 +27,20 @@ function Skills(){
     return (
      
         <>
-       <div className="header">
-           <div className="header_block1">
-               <div className="header_logo" id="header_logo">logo</div>
-               <div className="header_item1" id="header_item1">|||||||</div>
-           </div>
-         
-               <div className="header_bottom"><a  href="/">Q</a></div>
-               <div className="header_link">Link</div>
-            
-       </div>
-
+      
+      <Header />
 
         <div className="Skills">
         <div className="Skills_block1"></div>
-        <div className="Skills_block1"></div>
+        <div className="Skills_block2"></div>
         </div>
         
           
+           <Icon/>
 
 
 
-
-
-               <div className="block_icon1">
-               <img src="https://img.icons8.com/color-glass/40/000000/github.png" alt="22"/>
-               <img src="https://img.icons8.com/nolan/40/telegram-app.png" alt="22"/>
-               <img src="https://img.icons8.com/fluency/40/000000/facebook-messenger--v2.png" alt="ok"/>
-               <img src="https://img.icons8.com/nolan/40/youtube-squared.png" alt="ok"/>
-             <div className="line2"></div>
-                  </div>
-
+ 
   
        <Particles
       id="tsparticles"

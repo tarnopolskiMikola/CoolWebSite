@@ -11,19 +11,30 @@
     font-size: 25px;
     margin-left: 10px;
     z-index: 100;
+
+    animation-name: backInUp;
+    animation-duration: 1.5s;
 }
 .header_item1 {
     font-size: 25px;
     margin-left: 20px;
     z-index: 100;
+    color: rgb(245, 70, 236);
+    cursor: pointer;
+
+    animation-name: backInUp;
+    animation-duration: 1.5s;
 }
 .header_link {
     margin-right: 10px;
     font-size: 25px;
+    color: rgb(245, 70, 236);
+
+    animation-duration: 1.5s;
 }
 .header_bottom {
     margin-right: 5%;
-    color: green;
+    color: rgb(245, 70, 236);
     z-index: 100;
     border-radius: 50%;
 
@@ -31,6 +42,26 @@
     font-size: 50px;
     cursor: pointer;
     text-decoration: none;
+
+    animation-name: backInUp;
+    animation-duration: 1.5s;
+}
+
+@keyframes backInDownn {
+    0% {
+        transform: translateY(-1200px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        transform: translateY(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .header_bottom:hover {

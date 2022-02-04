@@ -7,10 +7,10 @@ function icon(){
      
         <>
         <div className="block_icon">
-              <img src="https://img.icons8.com/color/40/000000/github-2.png" alt="github"/>
-              <img src="https://img.icons8.com/wired/40/000000/telegram-app.png" alt="telegram"/>
-              <img src="https://img.icons8.com/wired/40/000000/facebook-new.png" alt="fasebook"/>
-              <img src="https://img.icons8.com/wired/40/000000/youtube--v1.png" alt="youtube"/>
+              <img className="block_icon11" src="https://img.icons8.com/nolan/40/skull-heart.png" alt="github"/>
+              <img className="block_icon22" src="https://img.icons8.com/nolan/40/sent.png" alt="g"/>
+              <img className="block_icon33" src="https://img.icons8.com/nolan/40/facebook.png" alt="f"/>
+              <img className="block_icon44" src="https://img.icons8.com/nolan/40/youtube.png" alt="y"/>
                <div className="line"></div>
        </div>
 

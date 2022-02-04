@@ -3,29 +3,35 @@ import "./about.css"
 import Header from '../header/Header';
 import Particles2 from "react-tsparticles";
 import React, {  useEffect } from 'react';
+import Icon from "../icon/icon"
 function About(){
    /* ---- tsParticles config ---- */
-    
+
    useEffect(() => {
-    let logo = document.getElementById("header_logo") ;
-    let item = document.getElementById("header_item1") ;
-     if(window.location.href === "http://localhost:3000/about"){
-        logo.style.color = "white";
-        item.style.color = "white";
-     }
+    // let logo = document.getElementById("header_logo") ;
+    // let item = document.getElementById("header_item1") ;
+    //  if(window.location.href === "http://localhost:3000/about"){
+    //     logo.style.color = "white";
+    //     item.style.color = "white";
+    //  }
    });
   
     return (
      
         <>
             <Header/>
-            <div className="block_icon1">
-               <img src="https://img.icons8.com/color-glass/40/000000/github.png" alt="22"/>
-               <img src="https://img.icons8.com/nolan/40/telegram-app.png" alt="22"/>
-               <img src="https://img.icons8.com/fluency/40/000000/facebook-messenger--v2.png" alt="ok"/>
-               <img src="https://img.icons8.com/nolan/40/youtube-squared.png" alt="ok"/>
-             <div className="line2"></div>
-                  </div>
+            <Icon />
+
+            <div className="aboutBlock"></div>
+             
+
+            <div className="aboutBlock2"></div>
+ 
+
+
+
+
+
             <Particles2
       id="tsparticles"
    

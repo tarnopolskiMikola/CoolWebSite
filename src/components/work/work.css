@@ -1,43 +1,49 @@
-.Workh1 {
-    margin-left: 40%;
-    font-size: 10rem;
-}
-/* canvas {
-    display: block;
-    vertical-align: bottom;
-}
- 
-#tsparticles {
+.Workh11 {
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    margin-left: 50%;
+    font-size: 200px;
+    z-index: 120;
+    color: rgba(255, 43, 227, 0.062);
 }
 
-.github {
-    bottom: 10px;
-    right: 10px;
-    position: fixed;
-    border-radius: 10px;
-    background: #fff;
-    padding: 0 12px 6px 12px;
-    border: 1px solid #000;
+.WorkBlock {
+    z-index: 100;
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    justify-content: space-between;
 }
 
-.github a:hover,
-.github a:link,
-.github a:visited,
-.github a:active {
-    color: #000;
-    text-decoration: none;
+.WorkBlock_b1 {
+    width: 44%;
+    height: 50vh;
+    background-color: rgba(19, 5, 43, 0.945);
+    z-index: 100;
+    border: solid 3px rgb(252, 36, 234);
 }
 
-.github img {
-    height: 30px;
+#wok1 {
+    animation-name: zoomIn;
+    animation-duration: 1.5s;
+}
+#wok2 {
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
+}
+#wok3 {
+    animation-name: zoomIn;
+    animation-duration: 3.5s;
 }
 
-.github #gh-project {
-    font-size: 20px;
-    padding-left: 5px;
-    font-weight: bold;
-    vertical-align: bottom;
-} */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

@@ -51,9 +51,12 @@
     border: 5px solid rgba(0, 0, 0, 0.836);
     border-left: none;
     position: absolute;
-    top: 25%;
+    top: 26.5%;
     left: 50%;
+
     display: none;
+    animation-name: bounceInLeft;
+    animation-duration: 2.5s;
 }
 
 .hi_block1 {
@@ -64,6 +67,8 @@
     position: absolute;
     top: 25%;
     left: 35%;
+
+    animation-duration: 2.5s;
 }
 
 .hi_hello {

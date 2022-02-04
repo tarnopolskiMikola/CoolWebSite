@@ -19,4 +19,15 @@
     background-color: rgba(19, 5, 43, 0.945);
     z-index: 100;
     border: solid 3px white;
+    animation-name: bounceIn;
+    animation-duration: 2.5s;
+}
+.Skills_block2 {
+    width: 44%;
+    height: 50vh;
+    background-color: rgba(19, 5, 43, 0.945);
+    z-index: 100;
+    border: solid 3px white;
+    animation-name: bounceIn;
+    animation-duration: 3.5s;
 }

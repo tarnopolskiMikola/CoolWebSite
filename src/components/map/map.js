@@ -21,17 +21,18 @@ let about =  document.getElementById("about");
             st.style.top = "200px"
             st.style.width ="100px"
             st2.style.display = "block"
-            about.style.color = "white"
+         
+            about.style.color = "rgb(238, 40, 116)"
             
          }
          if(count=== 100){
             document.getElementById("header_logo").style.color = "black"
             document.getElementById("header_item1").style.color = "black"
-        
+            about.style.color =  "rgb(238, 40, 238)"
             st.style.left = "50%"
             st.style.top = "50%"
             st.style.width ="250px"
-            about.style.color = "black"
+            
             st2.style.display = "none"
              return  setCount(count - 100 )
          }
@@ -49,9 +50,9 @@ let about =  document.getElementById("about");
      
         <>
        
-           <div className="parent"  >
-             <div className="block"onClick={() => setCount(count + 50) }  id="parent">
-             <img className="block_icon2" src="https://img.icons8.com/ios/200/000000/geography.png" alt="f"/>
+           <div   className="parent"  >
+             <div   className="block" onClick={() => setCount(count + 50) }  id="parent">
+             <img    className="block_icon2" src="https://img.icons8.com/nolan/200/logout-rounded-left.png"  alt="f"/>
            </div>
            </div>
            <div className="hi_block2" id="hi_block2"></div>
