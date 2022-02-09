@@ -55,7 +55,11 @@ let about =  document.getElementById("about");
              <img    className="block_icon2" src="https://img.icons8.com/nolan/200/logout-rounded-left.png"  alt="f"/>
            </div>
            </div>
-           <div className="hi_block2" id="hi_block2"></div>
+           <div className="hi_block2" id="hi_block2">
+           <video width="100%" height="95%" controls>
+                <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" type="video/mp4"/>
+            </video>
+           </div>
             <Hi />
             
              

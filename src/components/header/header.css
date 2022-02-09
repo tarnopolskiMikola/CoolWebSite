@@ -21,9 +21,6 @@
     z-index: 100;
     color: rgb(245, 70, 236);
     cursor: pointer;
-
-    animation-name: backInUp;
-    animation-duration: 1.5s;
 }
 .header_link {
     margin-right: 10px;
@@ -43,7 +40,7 @@
     cursor: pointer;
     text-decoration: none;
 
-    animation-name: backInUp;
+    animation-name: backInDown;
     animation-duration: 1.5s;
 }
 
@@ -67,4 +64,22 @@
 .header_bottom:hover {
     font-size: 60px;
     transition: all 0.8s ease 0.3s;
+}
+
+.rotateInM {
+    animation: rotateIn 5s infinite;
+    transform-origin: center;
+    animation-name: rotateIn;
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }

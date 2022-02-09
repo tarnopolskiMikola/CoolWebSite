@@ -18,16 +18,67 @@
     height: 50vh;
     background-color: rgba(19, 5, 43, 0.945);
     z-index: 100;
-    border: solid 3px white;
+    border: solid 2px rgb(113, 37, 199);
     animation-name: bounceIn;
     animation-duration: 2.5s;
+    padding: 20px;
+}
+.Skills_block2:hover {
+    border: solid 3px white;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.Skills_block1:hover {
+    border: solid 3px white;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.945);
 }
 .Skills_block2 {
     width: 44%;
     height: 50vh;
     background-color: rgba(19, 5, 43, 0.945);
     z-index: 100;
-    border: solid 3px white;
+    border: solid 2px rgb(113, 37, 199);
     animation-name: bounceIn;
     animation-duration: 3.5s;
+    padding: 20px;
+    cursor: pointer;
+}
+.Skills_block1-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Skills_block1-flex-img {
+    animation: float 4s ease infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(-7px);
+    }
+    50% {
+        transform: translateY(7px) translateX(7px);
+    }
+    100% {
+        transform: translateY(-7px);
+    }
+}
+
+.skills-p {
+    font-size: calc(0.6rem + 1vw);
+    z-index: 120;
+    color: rgb(201, 159, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+}
+.skills-p2 {
+    font-size: calc(0.6rem + 1vw);
+    z-index: 120;
+    color: rgb(201, 159, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    margin-top: -10px;
+}
+.Skills_block2 video {
+    margin-top: -70px;
 }
