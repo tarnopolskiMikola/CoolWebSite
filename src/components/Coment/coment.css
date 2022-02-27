@@ -1,0 +1,86 @@
+/*CUSTOM SELECTOR */
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: #9d47ff;
+    cursor: pointer;
+    pointer-events: none;
+}
+.zIndex {
+    position: absolute;
+    z-index: 200;
+}
+
+.todo_p {
+    background-color: rgba(92, 41, 112, 0.377);
+    font-size: 25px;
+    margin: 0px;
+    color: #9d47ff;
+    width: auto;
+}
+.todo-form {
+    display: flex;
+}
+
+.buttom_add {
+    background-color: rgb(195, 67, 212);
+    font-size: 35px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttom_add:hover {
+    background-color: rgb(245, 145, 245);
+
+    color: white;
+}
+.input_todo {
+    min-width: 250px;
+    background-color: rgba(243, 141, 247, 0.548);
+    border: none;
+    color: #491c7c;
+    font-size: 25px;
+}
+
+.trash_button_todo {
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(209, 1, 147);
+    color: white;
+}
+.trash_button_todo:hover {
+    background-color: rgb(155, 147, 147);
+    color: rgb(199, 71, 71);
+}
+.Complete_button_todo {
+    font-size: 15px;
+    padding: 12px;
+    background-color: rgb(216, 162, 252);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.del {
+    color: red;
+}
+
+.Complete_button_todo:hover {
+    background-color: rgb(239, 177, 255);
+
+    color: rgba(186, 109, 248);
+}
+.app {
+    top: 200px;
+    left: 14vw;
+    right: 30%;
+    position: absolute;
+
+    width: 50%;
+}

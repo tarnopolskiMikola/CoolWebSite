@@ -44,12 +44,40 @@
     animation-name: backInRight;
     animation-duration: 1.5s;
 }
+.work {
+    font-size: 30px;
+    color: rgb(238, 40, 238);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    cursor: pointer;
+    transform: translateX(-50%) rotate(-90deg);
+    animation-name: backInRight;
+    animation-duration: 1.5s;
+}
 
 .work:hover {
     font-size: 40px;
     transition: all 0.8s ease 0.3s;
 }
 
+.coment {
+    font-size: 30px;
+    color: rgb(238, 40, 238);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    right: -70px;
+    cursor: pointer;
+    transform: translateX(-50%) rotate(-90deg);
+    animation-name: backInLeft;
+    animation-duration: 1.5s;
+}
+.coment:hover {
+    font-size: 40px;
+    transition: all 0.8s ease 0.3s;
+}
 @keyframes backInUp {
     0% {
         transform: translateY(1200px) scale(0.7);

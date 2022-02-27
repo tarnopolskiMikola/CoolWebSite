@@ -17,23 +17,23 @@
 .block_icon11 {
     animation-duration: calc(var(--animate-duration) * 0.75);
     animation-name: bounceIn;
-    animation-duration: 2.5s;
+    animation-duration: 3.5s;
 }
 .block_icon22 {
     animation-duration: calc(var(--animate-duration) * 0.75);
     animation-name: bounceIn;
-    animation-duration: 3.5s;
+    animation-duration: 4.5s;
 }
 .block_icon33 {
     animation-duration: calc(var(--animate-duration) * 0.75);
     animation-name: bounceIn;
-    animation-duration: 4s;
+    animation-duration: 5s;
 }
 
 .block_icon44 {
     animation-duration: calc(var(--animate-duration) * 0.75);
     animation-name: bounceIn;
-    animation-duration: 4.5s;
+    animation-duration: 6.5s;
 }
 .block_icon1 {
     z-index: 120;

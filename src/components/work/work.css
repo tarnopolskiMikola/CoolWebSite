@@ -1,24 +1,26 @@
 .Workh11 {
     position: absolute;
     margin-left: 50%;
-    font-size: 200px;
+    font-size: 15vw;
     z-index: 120;
     color: rgba(255, 43, 227, 0.062);
 }
 
 .WorkBlock {
     z-index: 100;
-    width: 90%;
+
     height: auto;
     display: flex;
     margin-top: 100px;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-right: 50px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .WorkBlock_b1 {
-    width: 44%;
-    height: 50vh;
+    width: 300px;
+    height: 420px;
     background-color: rgba(19, 5, 43, 0.945);
     z-index: 100;
     border: solid 3px rgb(113, 37, 199);
@@ -49,4 +51,8 @@
     50% {
         opacity: 1;
     }
+}
+
+.over_f {
+    overflow: hidden;
 }

@@ -75,7 +75,7 @@ function Skills(){
 
     return (
      
-        <>
+        <div className="over_f">
       
       <Header />
 
@@ -113,7 +113,7 @@ function Skills(){
 
 
  
-        </>
+        </div>
       );
 }
 export default  Skills;

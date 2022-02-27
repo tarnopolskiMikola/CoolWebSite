@@ -57,11 +57,12 @@ tsParticles.load("tsparticles", {
   
     return (
      
-        <>
+        <div className="over">
             <Header/>
             <Icon />
 
             <div className="aboutBlock">
+  
            <p className="aboutBlock_P">We offer top-notch end-to-end Game Development 
              and Game Art Outsourcing services. </p>
                  <p className="aboutBlock_P"> 
@@ -72,24 +73,24 @@ tsParticles.load("tsparticles", {
                 through concepting and prototyping to release and
                  post release support</p>
                 
-            <video width="100%" height="50%" controls>
+            <video width="100%" height="50%"   controls>
                 <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" type="video/mp4"/>
             </video>
              
             </div>
              
 
-            <div className="aboutBlock2">
-            <img className="aboutBlock2" src="https://o.remove.bg/downloads/251256aa-5af4-4efa-b65d-e67b5767fe99/2-removebg-preview.png" alt=""></img>
-            </div>
+     
+      
+      
  
-           
+            <img className="aboutBlock22" src="http://pngimg.com/uploads/fortnite/fortnite_PNG51.png" alt=""></img>
  
 
         
    
        
-        </>
+        </div>
       );
 }
 export default  About;

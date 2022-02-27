@@ -9,7 +9,13 @@
     animation-duration: 2.5s;
     position: absolute;
 }
-
+@media (max-width: 700px) {
+    .aboutBlock {
+        width: 50%;
+        height: 70vh;
+        left: 10%;
+    }
+}
 @keyframes fadeInTopRight {
     from {
         opacity: 0;
@@ -26,12 +32,20 @@
 }
 /* ////////////////////////////////////////////////? */
 
-.aboutBlock2 {
+.aboutBlock22 {
     z-index: 120;
-    width: 45vw;
+    width: 40vw;
     position: absolute;
-    right: 0px;
+    right: 10px;
+    bottom: 20px;
     animation: float 4s ease infinite;
+}
+
+@media (max-width: 700px) {
+    .aboutBlock22 {
+        bottom: 50%;
+        width: 50vw;
+    }
 }
 @keyframes float {
     0% {
@@ -59,4 +73,14 @@
     position: relative;
 
     background-size: cover;
+}
+@media (max-width: 700px) {
+    .intro {
+        max-height: 40vw;
+    }
+}
+.over {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
 }

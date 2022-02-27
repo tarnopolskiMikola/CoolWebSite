@@ -3,36 +3,12 @@ import "./header.css"
 import styled, { keyframes } from 'styled-components'
 import { motion } from "framer-motion"
 
-// const rotateIn = keyframes`
-// from{
-//     transform: rotate(0);
-// }
-// to{
-//     transform: rotate(360deg);
-// }
-// `
-
-// const RotateInM = styled.div`
  
-//     animation:${rotateIn}  5s infinite;`
 const   Header = () =>{
     
     useEffect(() => {
        
    
-    //     var icon = document.getElementById("header_item1");
-  
-    //  function mpp(){
-    //     var mySong = document.getElementById("mySong");
-    //     if(mySong.paused){
-    //         mySong.play();
-    //         icon.classList.add("rotateInM");
-    //     }else{
-    //         mySong.pause();
-    //         icon.classList.remove("rotateInM");
-    //     }
-    //     mySong.loop = true;
-    // }
  
        
     });
@@ -76,8 +52,8 @@ const   Header = () =>{
 
            </div>
          
-               <div  className="header_bottom"><a id="header_bottom" className="header_bottom" href="/"> O</a></div>
-               <div className="header_link">Link</div>
+               <div  className="header_bottom"><a id="header_bottom" className="header_bottom" href="/"> <img className="header_bottom" src="https://img.icons8.com/nolan/64/play-button-circled.png" alt="go"/></a></div>
+               <div className="header_link"> ...............</div>
             
        </div>
         </>

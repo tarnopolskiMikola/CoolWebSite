@@ -155,7 +155,7 @@ function Work(){
 
     return (
      
-        <>
+        <div className="over_f">
         
         <Header/>
        
@@ -171,15 +171,15 @@ function Work(){
                   <div id="wok1"  className="WorkBlock_b1"></div>
                   <div id="wok2"  className="WorkBlock_b1"></div>
                   <div id="wok2"  className="WorkBlock_b1"></div>
-                  <div id="wok3"  className="WorkBlock_b1"></div>
-                  <div id="wok3"  className="WorkBlock_b1"></div>
+                 
+               
                 </div>
         
      <div className="work-block">
 
      </div>
   
-        </>
+        </div>
       );
 }
 export default  Work;
