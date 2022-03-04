@@ -185,7 +185,7 @@ function Coment() {
 }
 
   return (
-    <div className="todo_block">
+    <div  >
     <Header/>
     <div className="app">
       <div className="todo-list">

@@ -56,3 +56,32 @@
 .over_f {
     overflow: hidden;
 }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.swiper {
+    margin-top: 20px;
+    width: 350px;
+    height: 500px;
+    animation-name: zoomIn;
+    animation-duration: 3.5s;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.okk {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
