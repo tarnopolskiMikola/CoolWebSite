@@ -57,7 +57,7 @@ import React from "react"
 import Icon from "../icon/icon"
 
 
-
+//////////////////////////////////////////////////////////////todo///////////////////////////////////////////////////////
  
 
 function Todo({ todo, index, completeTodo, removeTodo,btn }) {
@@ -77,7 +77,8 @@ function Todo({ todo, index, completeTodo, removeTodo,btn }) {
     </div>
   );
 }
-
+//////////////////////////////////////////////////////////////todo/////////////////////////////////////
+//////////////////////////////////////////////////////////////TodoForm/////////////////////////////////////
 function TodoForm({ addTodo }) {
   const [value, setValue] = React.useState("");
 
@@ -101,9 +102,14 @@ function TodoForm({ addTodo }) {
      
   );
 }
-let res = JSON.parse(localStorage.getItem("todos"));
+//////////////////////////////////////////////////////////////TodoForm/////////////////////////////////////
+let res = JSON.parse(localStorage.getItem("todos2"));
 
 function Coment() {
+  console.log(res + "------todos2-------");
+  if(res === null){
+      localStorage.setItem("todos2", JSON.stringify([]))
+  }
   const [todos, setTodos] = React.useState(
     res
   );
@@ -112,13 +118,14 @@ function Coment() {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
     console.log(newTodos + "   ---------- НЕ ТАК")
-     localStorage.setItem("todos", JSON.stringify(newTodos))
+     localStorage.setItem("todos2", JSON.stringify(newTodos))
      GetTodos(newTodos )
  
   };
  
 // console.log(Todo())
   // let btnClass = 'btn';
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////
   const completeTodo = index => {
     
     const newTodos = [...todos];
@@ -138,6 +145,7 @@ function Coment() {
     }
 
   };
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   const removeTodo = index => {
     const newTodos = [...todos];
@@ -149,7 +157,7 @@ function Coment() {
   function removeLocalTodos(i,nt) {
    console.log(i + "removeLocalTodos")
    console.log(nt + "removeLocalTodos")
-   localStorage.setItem("todos", JSON.stringify(nt));
+   localStorage.setItem("todos2", JSON.stringify(nt));
   }
 
 
@@ -157,14 +165,14 @@ function Coment() {
     console.log(i)
     console.log(nt+"completeTodoL")
     
-    localStorage.setItem("todos", JSON.stringify(nt));
+    localStorage.setItem("todos2", JSON.stringify(nt));
    }
 
 
   function GetTodos() {
  
- let res = JSON.parse(localStorage.getItem("todos"));
- console.log(res + "------todos-------");
+ let res = JSON.parse(localStorage.getItem("todos2"));
+ console.log(res + "------todos2-------");
   return(
     <div >
         {res.map((todo, index) => (
